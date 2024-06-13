@@ -1,4 +1,5 @@
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -9,6 +10,13 @@ a {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+h2 {
+    /* font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8; */
 }
 
 .row-1 {
@@ -34,4 +42,19 @@ a {
     gap: 10px;
     margin: 0;
     padding: 0;
+}
+
+.content-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-placeholder {
+background-color: grey;
 }
