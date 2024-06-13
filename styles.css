@@ -6,6 +6,9 @@ body {
 
 a {
     text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .row-1 {
@@ -19,7 +22,10 @@ a {
 }
 
 .logo {
-
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
 
 .links {
