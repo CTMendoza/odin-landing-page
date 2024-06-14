@@ -63,12 +63,15 @@ p {
     font-weight: lighter;
     color: #1F2937;
     width: 50%;
+    margin-bottom: 0;
 }
 
 .signature {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     color: #1F2937;
+    margin-left: 500px;
+    font-size: 23px;
 }
 
 .header{
