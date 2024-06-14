@@ -47,6 +47,13 @@ p {
     min-height: 470px;
 }
 
+.row-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    min-height: 470px;
+}
+
 .header{
     display: flex;
     justify-content: space-around;
