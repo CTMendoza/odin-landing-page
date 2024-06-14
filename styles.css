@@ -52,6 +52,23 @@ p {
     display: flex;
     flex-direction: column;
     min-height: 470px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    width: 50%;
+}
+
+.signature {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 .header{
