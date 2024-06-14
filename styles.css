@@ -44,6 +44,7 @@ p {
 .row-2 {
     display: flex;
     flex-direction: column;
+    min-height: 470px;
 }
 
 .header{
@@ -76,11 +77,28 @@ p {
 
 .content-2 {
     display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 .col-cont {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.subtext {
+    color: #848588ea;
+    text-align: center;
+    width: 204px;
+}
+
+.box {
+    height: 166px;
+    width: 166px;
+    border: solid #3882F6;
+    border-width: 5px;
+    border-radius: 20px;
 }
 
 .signup-section {
