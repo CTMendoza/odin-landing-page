@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-a, p, .bttn-1 {
+a, p, .bttn-1, .bttn-2 {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
@@ -55,6 +55,24 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+.row-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.call-cont {
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    width: 75%;
+    justify-content: space-around;
+    height: 180px;
+    border-radius: 10px;
+}
+
 
 .quote {
     font-size: 36px;
@@ -149,7 +167,26 @@ width: 580px;
 height: 252px;
 }
 
+.call-to-action {
+    font-family: "Roboto", sans-serif;
+    color: #F9FAF8;
+    margin-bottom: 1px;
+}
+
+.action-cont {
+    display: flex;
+    flex-direction: column;
+}
+
 .bttn-1 {
+    border: none;
+}
+
+.bttn-2 {
+    border: solid white;
+}
+
+button {
     background-color: #3882F6;
     width: 115px;
     height: 40px;
@@ -157,3 +194,6 @@ height: 252px;
     border-radius: 6px;
     border: none;
 }
+
+
+
